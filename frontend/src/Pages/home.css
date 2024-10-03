@@ -1,0 +1,60 @@
+.hero {
+    max-width: 100%;
+    background-color: aliceblue;
+}
+.head{
+    display: flex;
+    margin-left: 100px;
+}
+.st{
+    margin-top: 100px;
+}
+.head #h1{
+    color: rgba(11, 27, 53, 1);
+    font-size: 80px;
+    font-weight:lighter;
+    margin-bottom: px;
+}
+
+.head p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#p1{
+    color: rgba(196, 196, 196, 1);
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.btns{
+    display: flex;
+    margin-top: 50px;
+}
+
+.start{
+    width: 162px;
+    height: 49px;
+    background-color: #ff7300;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    color: white;
+    margin-top: 7px;
+}
+
+.learn{
+    display: flex;
+    margin-left: 40px;
+}
+
+.learn p{
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.hero-img{
+}

@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+.gallary{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 200px;
+}
+.gallary-container {
+    
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center the text inside the elements */
+}
+
+.gala-head h4, .gala-head p {
+    text-align: center; /* Centers text within h5 and p */
+}
+
+.gala-head h4{
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(11, 27, 53, 1);
+
+}
+
+.gala-head p{
+    color:rgb(99, 99, 99);
+    margin-top: 10px;
+    margin-bottom: 70px;
+}
+
+
+.gallary-item {
+    display: flex;
+    justify-content: center; /* Center items horizontally inside the container */
+}
+
+.gallary-item img {
+    width: 400px;
+    height: 400px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.gallary-item2{
+    display: flex;
+}
+
+.gallary-item2 img {
+    width: 400px;
+    height: 500px;
+    margin-left: 12px;
+    border-radius: 8px;
+}
+
+#flags{
+    width: 812px;
+    height: 500px;
+    margin-left: 12px;
+    border-radius: 8px;
+}

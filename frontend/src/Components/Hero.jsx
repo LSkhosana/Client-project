@@ -1,5 +1,5 @@
 import React from 'react'
-import './home.css'
+import '../CSS/Hero.css'
 import btn from '../Assets/icon.png'
 import hero from '../Assets/img.png'
 

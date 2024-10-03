@@ -1,6 +1,7 @@
 .hero {
     max-width: 100%;
-    background-color: aliceblue;
+    height: 800px;
+    margin-bottom: 150px;
 }
 .head{
     display: flex;
@@ -39,7 +40,8 @@
     height: 49px;
     background-color: #ff7300;
     border: none;
-    border-radius: 10px;
+    border-bottom-left-radius: 1.5rem;
+    border-top-right-radius: 1.5rem ;
     font-size: 18px;
     color: white;
     margin-top: 7px;

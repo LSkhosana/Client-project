@@ -1,0 +1,83 @@
+.more{
+    margin-left: 140px;
+    margin-right: 0px;
+    margin-top: 150px;
+}
+
+.more-title{
+    margin-top: 60px;
+}
+
+.more-title h4{
+    color: rgba(11, 27, 53, 1);
+    font-size: 35px;
+    font-weight:400;
+    margin-bottom: 40px;
+}
+
+.more-title p{
+    margin-bottom: 40px;
+}
+
+
+.more-container{
+    display: flex;
+    
+
+}
+
+.merge{
+    display: flex;
+}
+
+
+
+.more-icon{
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+.more-icon img{
+    width: 34px;
+    height: 34px;
+}
+
+.more-icon-text{
+    margin-left: 20px;
+}
+
+.more-icon-text p{
+    margin-top: 25px;
+    color: rgb(99, 99, 99);
+}
+
+.more-icon-text h4{
+    color: rgba(11, 27, 53, 1);
+    font-size: 18px;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+
+
+
+.more-text{
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+.more-text h2{
+    color: rgba(11, 27, 53, 1);
+    font-size: 35px;
+    font-weight:400;
+    margin-top: 20px;
+
+}
+
+.more-text #p-1{
+    margin-top: 50px;
+}
+#h5{
+    color:#ff7300 ;
+}

@@ -3,6 +3,7 @@ import about from '../Assets/Hero.png'
 // import meet from '../Assets/meeting.jpg'
 import '../CSS/About.css'
 import card from '../Assets/card.png'
+import bcase from '../Assets/case.png'
 
 
 
@@ -37,7 +38,7 @@ const About = () => {
 
                 <div className='about-icon'>
                     <div className='about-icon-img'>
-                        <img src={card} alt='card icon'/>
+                        <img src={bcase} alt='card icon'/>
                     </div>
                     <div className='about-icon-text'>
                         <h4>HR Service</h4>

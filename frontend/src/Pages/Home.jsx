@@ -5,6 +5,7 @@ import About from '../Components/About'
 import Gallery from '../Components/Gallery'
 import Services from '../Components/Services'
 import Testimonials from '../Components/Testimonials'
+import More from '../Components/More.jsx'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
     <About />
     <Gallery/>
     <Services/>
+    <More/>
     <Testimonials/>
     </>
   )

@@ -44,8 +44,8 @@
 }
 
 .gallary-item img {
-    width: 400px;
-    height: 400px;
+    width: 416px;
+    height: 416px;
     margin-left: 12px;
     margin-bottom: 12px;
     border-radius: 8px;
@@ -56,14 +56,14 @@
 }
 
 .gallary-item2 img {
-    width: 400px;
+    width: 416px;
     height: 500px;
     margin-left: 12px;
     border-radius: 8px;
 }
 
 #flags{
-    width: 812px;
+    width: 844px;
     height: 500px;
     margin-left: 12px;
     border-radius: 8px;

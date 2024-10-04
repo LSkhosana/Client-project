@@ -1,0 +1,68 @@
+.services{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.service-container {
+    
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center the text inside the elements */
+}
+
+.service-head h4{
+    text-align: center; /* Centers text within h5 and p */
+    font-size: 34px;
+    font-weight: 400;
+    color: rgba(11, 27, 53, 1);
+    margin-bottom: 30px;
+
+}
+
+.service-card{
+    width: 400px;
+    height: 350px;
+    background-color: rgb(255, 243, 225);
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.service-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #ff7300;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+}
+
+.service-icon img{
+    margin-top: 15px;
+}
+
+.service-cards{
+    display: flex;
+}
+
+.service-text{
+    text-align: left;
+    margin-left: 45px;
+    margin-top: 45px;
+    margin-right: 45px;
+}
+
+.service-text p{
+    color:rgb(99, 99, 99);
+    margin-top: 15px;
+    font-size: 16px;
+
+
+}
+
+.service-text h5{
+    color: rgba(11, 27, 53, 1);
+    font-size: 19px;
+
+}

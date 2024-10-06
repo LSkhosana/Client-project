@@ -1,0 +1,84 @@
+.form{
+    padding: 50px 100px 100px 100px;
+}
+
+
+.form-block{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.form-group{
+    min-width: 600px;
+    height:734px ;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 10px 15px 40px rgba(0, 0, 0, 0.25); /* More blur and lighter shadow color */
+
+}
+
+.form-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the entire form-head content horizontally */
+    width: 100%; /* Ensures it takes the full width of its container */
+  }
+  
+  .form-label {
+    width: 500px; /* Matches the width of the input */
+    text-align: left; /* Ensures the label is left-aligned */
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    border: none;
+    border-bottom: 2px solid rgb(179, 179, 179); /* Gray underline */
+    outline: none;
+    width: 500px; /* Sets a fixed width for the input */
+    padding: 5px;
+    transition: border-color 0.3s ease; /* Smooth transition for hover effect */
+    margin-bottom: 30px;
+  }
+  
+  .form-control:hover {
+    border-bottom: 2px solid #ff7300; /* Changes the underline color on hover */
+  }
+  
+  .form-control:focus {
+    border-bottom: 2px solid #ff7300; /* Changes the underline color when focused */
+  }
+  
+  textarea{
+    width: 500px;
+    margin-top: 40px;
+    border: 0.5px solid black;
+  }
+
+  .submit{
+    width: 350px;
+    height: 50px;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 50px;
+    background-color: #ff7300;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .submit:hover{
+    background-color: #000000;
+    cursor: pointer;
+  }
+
+  .form-text{
+    margin-left: -50px;
+    margin-right: 50px;
+  }
+
+  .form-text h2{
+    width: 500px;
+    font-size: 50px;
+  }

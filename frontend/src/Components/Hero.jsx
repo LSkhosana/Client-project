@@ -9,7 +9,7 @@ const Hero = () => {
     <section className='hero'>
         <div className='head'>
             <div className='st'>
-                <p id="h1">Mocaby & Co <br/>Group</p>
+                <p id="h1">Mocaby And Company</p>
                 <p id="p1">Management consultants</p>
                 <p id="p2">
                     We help businesses thrive with personalized consulting services, 

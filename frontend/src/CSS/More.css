@@ -81,3 +81,108 @@
 #h5{
     color:#ff7300 ;
 }
+
+/* For tablets (max-width: 1100px) */
+@media (max-width: 1100px) {
+    .more {
+        margin-left: 80px;
+        margin-right: 20px;
+        margin-top: 100px;
+    }
+
+    .more-title h4 {
+        font-size: 35px;
+    }
+
+    .more-text h2 {
+        font-size: 30px;
+    }
+
+    .more-icon img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .more-text {
+        margin-left: 30px;
+        margin-right: 60px;
+    }
+}
+
+/* For small tablets and large phones (max-width: 768px) */
+@media (max-width: 1025px) {
+    .more {
+        margin-left: 40px;
+        margin-right: 10px;
+        margin-top: 80px;
+    }
+.b{
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+    .more-title h4 {
+        font-size: 28px;
+    }
+
+    .more-text h2 {
+        font-size: 25px;
+    }
+
+    .more-container {
+        flex-direction: column;
+    }
+
+    .merge {
+        flex-direction: column;
+    }
+
+    .more-icon {
+        margin-top: 30px;
+    }
+
+    .more-icon img {
+        display: none;
+    }
+
+    .more-text {
+        margin-left: 20px;
+        margin-right: 30px;
+    }
+}
+
+/* For mobile phones (max-width: 480px) */
+@media (max-width: 480px) {
+    .more {
+        margin-left: 20px;
+        margin-right: 5px;
+        margin-top: 50px;
+    }
+
+    .more-title h4 {
+        font-size: 22px;
+    }
+
+    .more-text h2 {
+        font-size: 20px;
+    }
+
+    .more-icon img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .more-icon-text p {
+        font-size: 14px;
+    }
+
+    .more-text {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    #h5 {
+        font-size: 16px;
+    }
+}

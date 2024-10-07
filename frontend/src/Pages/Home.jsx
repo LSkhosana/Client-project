@@ -5,7 +5,7 @@ import About from '../Components/About'
 import Gallery from '../Components/Gallery'
 import Services from '../Components/Services'
 // import Testimonials from '../Components/Testimonials'
-// import More from '../Components/More.jsx'
+import More from '../Components/More.jsx'
 // import Footer from '../Components/Footer'
 
 
@@ -17,8 +17,8 @@ const Home = () => {
     <About />
     <Gallery/>
     <Services/>
-    {/*<More/>
-    <Testimonials/>
+    <More/>
+    {/*<Testimonials/>
     <Footer/> */}
     </>
   )

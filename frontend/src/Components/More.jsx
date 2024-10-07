@@ -17,7 +17,8 @@ function More() {
                     growth with increased profitability. This creates an overall positive business environment 
                     where employees are efficient, optimal, and effective in their work.
                 </p>
-                <button className='start'>Read more</button>
+                <div className='b'>
+                <button className='start'>Read more</button></div>
             </div>
             <div className='more-text'>
 

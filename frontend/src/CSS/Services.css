@@ -1,68 +1,204 @@
-.services{
-    margin-right: 100px;
-    margin-left: 100px;
+.services {
+    padding: 0 100px 0 100px;
     margin-top: 150px;
+    opacity: 0;
+    transform: translateY(100px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
+.services.in-view {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 .service-container {
-    
     display: flex;
-    flex-direction: column; /* Stack the content vertically */
-    align-items: center; /* Center horizontally */
-    text-align: center; /* Center the text inside the elements */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.service-head h4{
-    text-align: center; /* Centers text within h5 and p */
+.service-head h4 {
+    text-align: center;
     font-size: 34px;
     font-weight: 400;
     color: rgba(11, 27, 53, 1);
     margin-bottom: 30px;
-
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease forwards; /* Fade-in animation */
 }
 
-.service-card{
+.service-cards {
+    display: flex;
+    gap: 25px; /* Add some spacing between cards */
+    flex-wrap: wrap; /* Wrap the cards on smaller screens */
+    justify-content: center; /* Center the cards */
+}
+
+.service-card {
     width: 400px;
     height: 350px;
     background-color: rgb(255, 243, 225);
-    margin-left: 25px;
-    margin-top: 25px;
     border-radius: 10px;
+    margin-top: 25px;
+    overflow: hidden; /* Hide the overflow for hover effects */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
 }
 
-.service-icon{
+.service-card:hover {
+    transform: translateY(-10px); /* Lift effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+.service-icon {
     width: 60px;
     height: 60px;
     background-color: #ff7300;
-    border-top-left-radius:10px ;
+    border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-}
-
-.service-icon img{
-    margin-top: 15px;
-}
-
-.service-cards{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease; /* Color change effect on hover */
 }
 
-.service-text{
+.service-card:hover .service-icon {
+    background-color: #ff9500; /* Darker orange on hover */
+}
+
+.service-icon img {
+    margin-top: 15px;
+    width: 30px; /* Ensure the icon is well-sized */
+    height: auto;
+}
+
+.service-text {
     text-align: left;
     margin-left: 45px;
     margin-top: 45px;
     margin-right: 45px;
+    opacity: 0;
+    animation: fadeIn 1s ease forwards 0.5s; /* Fade-in effect for text */
 }
 
-.service-text p{
-    color:rgb(99, 99, 99);
-    margin-top: 15px;
-    font-size: 16px;
-
-
-}
-
-.service-text h5{
+.service-text h5 {
     color: rgba(11, 27, 53, 1);
     font-size: 19px;
-
 }
+
+.service-text p {
+    color: rgb(99, 99, 99);
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 1450px) {
+ .services{
+    padding: 0;
+ }
+}
+
+@media (max-width: 1260px) {
+    .service-card {
+        width: 350px;
+        height: 300px;
+    }
+   }
+
+   @media (max-width: 1100px) {
+    .service-card {
+        width: 300px;
+        height: 250px;
+    }
+   }
+
+   @media (max-width: 1000px) {
+    .service-card {
+        width: 220px;
+        height: 220px;
+    }
+    .service-icon {
+        width: 45px;
+        height: 45px;
+   }
+   .service-icon img {
+    margin-top: 0px;
+    width: 25px; 
+    }
+    .service-text {
+        text-align: left;
+        margin-left: 25px;
+        margin-top: 15px;
+        margin-right: 25px;
+    }
+    .service-text h5 {
+        font-size: 13px;
+    }
+
+    .service-text p {
+        color: rgb(99, 99, 99);
+        margin-top: 10px;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 600px) {
+    .service-card {
+        width: 350px;
+        height: 300px;
+    }
+    .service-icon {
+        width: 60px;
+        height: 60px;
+   }
+   .service-icon img {
+    margin-top: 5px;
+    width: 30px; 
+    }
+    .service-text {
+        text-align: left;
+        margin-left: 45px;
+        margin-top: 25px;
+        margin-right: 45px;
+    }
+    .service-text h5 {
+        font-size: 19px;
+    }
+
+    .service-text p {
+        color: rgb(99, 99, 99);
+        margin-top: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 500px) {
+    .service-head h4{
+        font-size: 24px;
+    }
+}
+

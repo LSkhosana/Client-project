@@ -54,6 +54,12 @@
     margin-top: 12px;
     border-radius: 8px;
 }
+.gallary-item img:hover, 
+.gallary-item2 img:hover {
+    transform: translateY(-8px); /* Lift effect */
+    transition: transform 0.2s ease-in-out; /* Smooth transition */
+}
+
 
 #flags {
     width: 844px;

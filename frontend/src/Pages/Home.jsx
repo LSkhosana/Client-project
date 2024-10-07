@@ -3,7 +3,7 @@ import Navbar from '../Components/Navbar'
 import Hero from '../Components/Hero'
 import About from '../Components/About'
 import Gallery from '../Components/Gallery'
-// import Services from '../Components/Services'
+import Services from '../Components/Services'
 // import Testimonials from '../Components/Testimonials'
 // import More from '../Components/More.jsx'
 // import Footer from '../Components/Footer'
@@ -16,8 +16,8 @@ const Home = () => {
     <Hero />
     <About />
     <Gallery/>
-    {/*<Services/>
-    <More/>
+    <Services/>
+    {/*<More/>
     <Testimonials/>
     <Footer/> */}
     </>

@@ -1,10 +1,34 @@
-import React from 'react'
+import React, { useRef, useState, useEffect } from 'react';
 import '../CSS/Services.css'
 import debt from '../Assets/debt.png'
 
 const Services = () => {
-  return (
-    <section className='services'>
+    const servicesRef = useRef(null);
+    const [inView, setInView] = useState(false);
+  
+    useEffect(() => {
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            setInView(entry.isIntersecting);
+          });
+        },
+        { threshold: 0.1 } // Adjust threshold as needed
+      );
+  
+      if (servicesRef.current) {
+        observer.observe(servicesRef.current);
+      }
+  
+      return () => {
+        if (servicesRef.current) {
+          observer.unobserve(servicesRef.current);
+        }
+      };
+    }, []);
+  
+    return (
+      <section ref={servicesRef} className={`services ${inView ? 'in-view' : ''}`}>
         <div className='service-container'>
             <div className='service-head'>
                 <h4>We Provide Solutions For Your <br/>Business</h4>

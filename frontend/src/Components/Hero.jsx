@@ -2,6 +2,8 @@ import React from 'react'
 import '../CSS/Hero.css'
 import btn from '../Assets/icon.png'
 import hero from '../Assets/img.png'
+import { Link } from 'react-router-dom';
+
 
 const Hero = () => {
   return (
@@ -17,7 +19,9 @@ const Hero = () => {
                     improve profitability, and overcome challenges.
                 </p>
                 <div className='btns'>
+                <Link to="/contact">
                     <button className='start'>Get Started</button>
+                </Link>                    
                     <div className='learn'>
                         <img src={btn} alt='learn more'/>
                         <p>Learn More</p>

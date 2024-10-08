@@ -8,8 +8,8 @@ const Testimonials = () => {
   return (
     <section className="testimonials-wrapper testimonial-container">
       <div className="title">
-        <h2>Testimonial</h2>
-        <p>What members are saying.</p>
+        <h2>Testimonials</h2>
+        <p>What clients are saying.</p>
       </div>
 
       <div className="slider-container">

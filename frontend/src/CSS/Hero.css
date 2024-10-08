@@ -16,6 +16,7 @@
     max-width: 100%;
     margin-bottom: 150px;
     animation: gradient 15s ease infinite; /* Animate gradient */
+    margin-top: 50px;
   }
   
   .head {

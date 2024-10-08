@@ -7,8 +7,10 @@
     font-family: "Open Sans", sans-serif;
 }
 .page{
-    margin-left: 80px;
-    margin-top: 150px;
+    padding: 100px 100px 0px 100px;
+}
+.bt{
+    margin-bottom: 120px;
 }
 
 .page-container{
@@ -61,4 +63,67 @@
 }
 #h5{
     color:#ff7300 ;
+}
+
+@media (max-width: 1440px) {
+    .page-img img{
+        width: 650px;
+        height: 350px;
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .page-img img{
+        width: 650px;
+        height: 350px;
+        margin-top: 150px;
+    }
+
+    .page{
+        padding: 100px 50px 0px 50px;
+    }
+    .page-text{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .page{
+        padding: 100px 50px 0px 50px;
+    }
+}
+
+@media (max-width: 700px) {
+    .page-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .page{
+        padding: 0 50px 0 50px;
+    }
+
+    .page-img img{
+        width: 450px;
+        height: 250px;
+        justify-content: center;
+    }
+    .page-text{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    .page-img img{
+        width: 380px;
+        height: 200px;
+    }
 }

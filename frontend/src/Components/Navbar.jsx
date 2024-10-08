@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import "../CSS/Navbar.css";
+import logo from '../Assets/Logo.png'
 
 function Navbar() {
 	const navRef = useRef();
@@ -14,12 +15,13 @@ function Navbar() {
 
 	return (
 		<header>
+			<img id='logo'src={logo} alt='logo'/>
 			<nav ref={navRef}>
                 <div className="links">
-				<a href="/#">Home</a>
-				<a href="/#">About</a>
-				<a href="/#">Sevices</a>
-				<a href="/#">Contact</a>
+				<a href="/">Home</a>
+				<a href="/#h5">About</a>
+				<a href="/#serv">Sevices</a>
+				<a href="/contact">Contact</a>
                 </div>
 				<button
 					className="nav-btn nav-close-btn"
@@ -33,7 +35,7 @@ function Navbar() {
 				<FaBars />
 			</button>
       <button className="add-btn">
-        <Link to="/add" style={{ textDecoration: 'none', color: 'inherit' }}>
+        <Link to="/contact" style={{ textDecoration: 'none', color: 'inherit' }}>
         Free Qoute
         </Link>
 </button>

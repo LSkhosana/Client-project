@@ -31,7 +31,7 @@ const Services = () => {
       <section ref={servicesRef} className={`services ${inView ? 'in-view' : ''}`}>
         <div className='service-container'>
             <div className='service-head'>
-                <h4>We Provide Solutions For Your <br/>Business</h4>
+                <h4 id='serv'>We Provide Solutions For Your <br/>Business</h4>
             </div>
             <div className='service-cards'>
                 <div className='service-card'>

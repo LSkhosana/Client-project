@@ -1,7 +1,7 @@
 import React from 'react'
 import card from '../Assets/card.png'
 import '../CSS/More.css'
-
+import { Link } from 'react-router-dom'
 
 function More() {
   return (
@@ -18,7 +18,10 @@ function More() {
                     where employees are efficient, optimal, and effective in their work.
                 </p>
                 <div className='b'>
-                <button className='start'>Read more</button></div>
+                    <Link to= '/about'>
+                        <button className='start'>Read more</button>
+                    </Link>
+                </div>
             </div>
             <div className='more-text'>
 

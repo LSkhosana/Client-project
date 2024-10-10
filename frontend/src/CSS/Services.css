@@ -65,10 +65,11 @@
 
 .service-card:hover .service-icon {
     background-color: #ff9500; /* Darker orange on hover */
+    
 }
 
 .service-icon img {
-    margin-top: 15px;
+    margin-top: 0px;
     width: 30px; /* Ensure the icon is well-sized */
     height: auto;
 }

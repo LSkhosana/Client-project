@@ -7,14 +7,16 @@
     font-family: "Open Sans", sans-serif;
 }
 .page{
-    padding: 100px 100px 0px 100px;
+    padding: 250px 100px 100px 100px;
 }
 .bt{
-    margin-bottom: 120px;
+    margin-bottom: 12px;
+    margin-top: 50px;
 }
 
 .page-container{
     display: flex;
+    
 }
 
 .page-img img{
@@ -25,8 +27,8 @@
 
 .page-icon{
     display: flex;
-    margin-top: 55px;
-    margin-bottom: 50px;
+    margin-top: 25px;
+    margin-bottom: 0px;
 }
 
 .page-icon img{
@@ -36,6 +38,7 @@
 
 .page-icon-text{
     margin-left: 25px;
+    
 }
 
 .page-icon-text p{
@@ -59,7 +62,7 @@
 }
 
 .page-text #p-1{
-    margin-top: 50px;
+    margin-top: 20px;
 }
 #h5{
     color:#ff7300 ;
@@ -69,7 +72,6 @@
     .page-img img{
         width: 650px;
         height: 350px;
-        margin-top: 150px;
     }
 }
 
@@ -77,12 +79,9 @@
     .page-img img{
         width: 650px;
         height: 350px;
-        margin-top: 150px;
     }
 
-    .page{
-        padding: 100px 50px 0px 50px;
-    }
+    
     .page-text{
         margin-left: 50px;
         margin-right: 50px;
@@ -107,7 +106,7 @@
     }
     
     .page{
-        padding: 0 50px 0 50px;
+        padding: 100px 50px 0 50px;
     }
 
     .page-img img{

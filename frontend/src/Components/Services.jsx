@@ -1,6 +1,12 @@
 import React, { useRef, useState, useEffect } from 'react';
 import '../CSS/Services.css'
 import debt from '../Assets/debt.png'
+import management from '../Assets/consultation (2).png'
+import payroll from '../Assets/calculator.png'
+import people from '../Assets/network.png'
+import recruitement from '../Assets/recruitment.png'
+import human from '../Assets/human-resources.png'
+
 
 const Services = () => {
     const servicesRef = useRef(null);
@@ -51,7 +57,7 @@ const Services = () => {
 
                 <div className='service-card'>
                     <div className='service-icon'>
-                        <img src={debt} alt='debt' />
+                        <img src={management} alt='debt' />
                     </div>
                     <div className='service-text'>
                         <h5>Management Consulting
@@ -67,7 +73,7 @@ const Services = () => {
 
                 <div className='service-card'>
                     <div className='service-icon'>
-                        <img src={debt} alt='debt' />
+                        <img src={payroll} alt='debt' />
                     </div>
                     <div className='service-text'>
                         <h5>Payroll Management</h5>
@@ -89,7 +95,7 @@ const Services = () => {
             <div className='service-cards'>
                 <div className='service-card'>
                     <div className='service-icon'>
-                        <img src={debt} alt='debt' />
+                        <img src={people} alt='debt' />
                     </div>
                     <div className='service-text'>
                         <h5>People Operations</h5>
@@ -104,7 +110,7 @@ const Services = () => {
 
                 <div className='service-card'>
                     <div className='service-icon'>
-                        <img src={debt} alt='debt' />
+                        <img src={recruitement} alt='debt' />
                     </div>
                     <div className='service-text'>
                         <h5>Recruitment
@@ -120,7 +126,7 @@ const Services = () => {
 
                 <div className='service-card'>
                     <div className='service-icon'>
-                        <img src={debt} alt='debt' />
+                        <img src={human} alt='debt' />
                     </div>
                     <div className='service-text'>
                         <h5>HR Management</h5>

@@ -25,22 +25,23 @@ const Footer = () => {
 
         
         <div className="footer-section-columns">
-          <span>Qualtiy</span>
-          <span>Help</span>
-          <span>Share</span>
-          <span>Carrers</span>
-          <span>Testimonials</span>
-          <span>Work</span>
+          <span>Home</span>
+          <span>About</span>
+          <span>Contact</span>
+          <span>Setvices</span>
+          <span>Free Qoute</span>
         </div>
         <div className="footer-section-columns">
-          <span>012-533-7783</span>
-          <span>hello@food.com</span>
-          <span>press@food.com</span>
-          <span>contact@food.com</span>
+          <span>+27-64-801-6144</span>
+          <span>kms@mocaby.co.za</span>
+          <span>Keenan Smith</span>
+          <span>Mocaby and Co</span>
         </div>
         <div className="footer-section-columns">
           <span>173 Oxford Rd Rosebank</span>
           <span>Johannesburg</span>
+          <span>2196</span>
+
         </div>
       </div>
     </div>

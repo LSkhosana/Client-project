@@ -31,6 +31,7 @@ header {
     position: fixed;
     top: 0; /* Make sure it's fixed to the top */
     z-index: 1000; /* Ensure the header stays above other content */
+	height: 100px;
 	
 }
 

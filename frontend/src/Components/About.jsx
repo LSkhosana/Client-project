@@ -3,6 +3,8 @@ import about from '../Assets/Hero.png';
 import '../CSS/About.css';
 import card from '../Assets/card.png';
 import bcase from '../Assets/case.png';
+import { Link } from 'react-router-dom';
+
 
 const About = () => {
     const aboutRef = useRef(null); // Create a ref for the about section
@@ -71,8 +73,10 @@ const About = () => {
                             </p>
                         </div>
                     </div>
+
+                <Link to="/contact">
                     <button className='start'>Get Started</button>
-                </div>
+                </Link>                     </div>
             </div>
         </section>
     );

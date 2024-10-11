@@ -1,5 +1,10 @@
 import React from 'react'
-import card from '../Assets/card.png'
+import value from '../Assets/value.png' 
+import prop from '../Assets/property (1).png' 
+import supp from '../Assets/support.png' 
+import partner from '../Assets/partner.png' 
+import secure from '../Assets/secure.png' 
+import award from '../Assets/award.png' 
 import '../CSS/More.css'
 import { Link } from 'react-router-dom'
 
@@ -29,7 +34,7 @@ function More() {
                     
                     <div className='more-icon-text'>
                         <div className='merge'>
-                            <img src={card} alt='card icon'/>
+                            <img src={prop} alt='card icon'/>
                             <h4>Expert Property Solutions</h4>
                         </div>
                         <p>
@@ -40,7 +45,7 @@ function More() {
                    
                     <div className='more-icon-text'>
                         <div className='merge'>
-                            <img src={card} alt='card icon'/>
+                            <img src={value} alt='card icon'/>
                             <h4>Maximizing Property Value</h4>
                         </div>
                         <p>
@@ -55,7 +60,7 @@ function More() {
                    
                     <div className='more-icon-text'>
                         <div className='merge'>
-                            <img src={card} alt='card icon'/>
+                            <img src={supp} alt='card icon'/>
                             <h4>Personalized Service</h4>
                         </div>
                         <p>
@@ -67,7 +72,7 @@ function More() {
                    
                     <div className='more-icon-text'>
                         <div className='merge'>
-                            <img src={card} alt='card icon'/>
+                            <img src={secure} alt='card icon'/>
                             <h4>Secure and Reliable</h4>
                         </div>
                         <p>
@@ -82,7 +87,7 @@ function More() {
                    
                     <div className='more-icon-text'>
                         <div className='merge'>
-                            <img src={card} alt='card icon'/>
+                            <img src={award} alt='card icon'/>
                             <h4>Award-Winning Team</h4>
                         </div>
                         <p>
@@ -94,7 +99,7 @@ function More() {
                    
                     <div className='more-icon-text'>
                         <div className='merge'>
-                            <img src={card} alt='card icon'/>
+                            <img src={partner} alt='card icon'/>
                             <h4>Partners in Success</h4>
                         </div>
                         <p>

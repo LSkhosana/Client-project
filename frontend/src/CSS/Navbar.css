@@ -31,7 +31,6 @@ header {
     position: fixed;
     top: 0; /* Make sure it's fixed to the top */
     z-index: 1000; /* Ensure the header stays above other content */
-	height: 100px;
 	
 }
 
@@ -53,8 +52,8 @@ nav a {
   }
 
   #logo{
-	width: 180px;
-	height: 120px;
+	width: 200px;
+	height: 160px;
   }
 
 nav a:hover {
@@ -103,36 +102,43 @@ nav {
 		opacity: 1;
 	}
 
+	#logo{
+		width: 140px;
+		height: 120px;
+	}
+	
 	header nav {
-		position:absolute;
+		position: absolute;
 		top: -100vh;
 		left: 0;
 		height: 100%;
 		width: 100%;
 		display: flex;
-		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 1.5rem;
-		background-color:#db2b39;
-		transition: 1s;
+		gap: 5rem;
+		background-color: var(--secondaryColor);
+		transition: transform 1s ease-in-out; /* Adjusted for smooth opening */
+		transform: translateY(0); /* Start hidden */
 	}
 
 	header .responsive_nav {
-		transform: translateY(100vh);
+		transform: translateY(100vh); /* Brings it fully into view */
 	}
 
 	nav .nav-close-btn {
 		position: absolute;
-		top: 2rem;
-		right: 2rem;
+		top: 1.8rem;
+		right: 0rem;
 	}
 
 	nav a {
-		font-size: 1.5rem;
+		font-size: 1rem;
 		color: rgba(255, 255, 255, 0.829);
+		display: flex;
 	}
-	.add-btn{
-		display:none;
+
+	.add-btn {
+		display: none;
 	}
 }

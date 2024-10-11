@@ -21,11 +21,14 @@ const Hero = () => {
                 <div className='btns'>
                 <Link to="/contact">
                     <button className='start'>Get Started</button>
-                </Link>                    
+                </Link>
+
+                <Link href="/more" style={{ textDecoration: 'none', color: 'inherit' }}>  
                     <div className='learn'>
                         <img src={btn} alt='learn more'/>
                         <p>Learn More</p>
                     </div>
+                </Link>
                 </div>
             </div>
             <div className='hero-img'>

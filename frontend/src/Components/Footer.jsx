@@ -5,6 +5,8 @@ import { SiLinkedin } from "react-icons/si";
 import { BsYoutube } from "react-icons/bs";
 import { FaFacebookF } from "react-icons/fa";
 import '../CSS/Footer.css'
+import { Link } from 'react-router-dom';
+
 
 const Footer = () => {
   return (
@@ -29,7 +31,7 @@ const Footer = () => {
           <span>About</span>
           <span>Contact</span>
           <span>Setvices</span>
-          <span>Free Qoute</span>
+          <span>Free Quote</span>
         </div>
         <div className="footer-section-columns">
           <span>+27-64-801-6144</span>

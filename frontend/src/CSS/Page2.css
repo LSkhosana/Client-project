@@ -19,15 +19,21 @@
     
 }
 
+.page-img{
+    width: 100%;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+}
 .page-img img{
-    width: 650px;
-    height: 350px;
+    width: 700px;
+    height: 400px;
     margin-top: 50px;
 }
 
 .page-icon{
     display: flex;
-    margin-top: 25px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -64,6 +70,14 @@
 .page-text #p-1{
     margin-top: 20px;
 }
+#p-1{
+    margin-bottom: 25px;
+}
+#p-2{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 #h5{
     color:#ff7300 ;
 }

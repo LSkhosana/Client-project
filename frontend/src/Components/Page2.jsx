@@ -16,6 +16,7 @@ const Page2 = () => {
                 <p id='p-1'>
                 We are please to announce the partnership with Sanlamfor our newest instalment of GroupBenefits.
                 </p>
+                <p id='p-2'> <span style={{ color:'rgba(11, 27, 53, 1)'}}>Current Value</span> : <span style={{ color:'#ff7300' }}>R13 637 679</span></p>
                 <div className='page-icon'>
                     <div className='page-icon-img'>
                         <img src={card} alt='card icon'/>

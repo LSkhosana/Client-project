@@ -12,7 +12,9 @@ function Navbar() {
 			"responsive_nav"
 		);
 	};
-
+<Link to="/contact" style={{ textDecoration: 'none',}}>
+<a href="/contact">Contact</a>
+</Link>
 	return (
 		<header>
 			<img id='logo'src={logo} alt='logo'/>
@@ -22,8 +24,10 @@ function Navbar() {
 				<a href="/">Home</a>
 				<a href="/#h5">About</a>
 				<a href="/#serv">Sevices</a>
-				<a href="/contact">Contact</a>
-                </div>
+				<Link to="/contact" style={{ textDecoration: 'none',}}>
+					<a href="/contact">Contact</a>
+				</Link>               
+				</div>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>

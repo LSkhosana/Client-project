@@ -182,4 +182,8 @@
         font-size: 18px; /* Adjust font size */
         margin-top: 10px; /* Adjust margin */
     }
+
+    .about-text {
+        margin-left: -10px;
+    }
 }

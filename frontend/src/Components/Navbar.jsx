@@ -17,6 +17,7 @@ function Navbar() {
 		<header>
 			<img id='logo'src={logo} alt='logo'/>
 			<nav ref={navRef}>
+				<div className="close">
                 <div className="links">
 				<a href="/">Home</a>
 				<a href="/#h5">About</a>
@@ -28,6 +29,7 @@ function Navbar() {
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
+				</div>
 			</nav>
 			<button
 				className="nav-btn"
@@ -36,7 +38,7 @@ function Navbar() {
 			</button>
       <button className="add-btn">
         <Link to="/contact" style={{ textDecoration: 'none', color: 'inherit' }}>
-        Free Qoute
+        Free Quote
         </Link>
 </button>
 

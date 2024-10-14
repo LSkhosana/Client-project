@@ -147,7 +147,7 @@
     }
 
     .more-text {
-        margin-left: 20px;
+        margin-left: 0px;
         margin-right: 30px;
     }
     .more-title{
@@ -161,6 +161,7 @@
     .more {
        
         margin-top: 50px;
+        padding: 60px 0px 60px 0px;
     }
 
     .more-title h4 {
@@ -188,7 +189,17 @@
 
     .more-text {
         margin-left: 0px;
-        margin-right: 0px;
+    }
+    .more-icon{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 0px;
+       
+    }
+    .more-icon-text{
+        margin-left: 0px;
+        margin-top: 40px;
     }
 
     #h5 {

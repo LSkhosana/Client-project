@@ -15,9 +15,9 @@ const Contacts = () => {
           <h2>Get Started <span style={{ color:'#ff4400' }}>Today</span> By Filling In Your 
           Details</h2>
           <div className='contact-info'>
-            <p><BsEnvelope /> example@gmail.com</p>
-            <p><BsPhone /> 012-567-7890</p>
-            <p><BsGeoAlt /> 123 Main St, Anytown, USA 12345</p>
+            <p><BsEnvelope />kms@mocaby.co.za</p>
+            <p><BsPhone /> +27-64-801-6144</p>
+            <p><BsGeoAlt /> 173 Oxford Road, Rosebank, Gauteng, 2196</p>
 
           <div>
             <div className='socials'>
